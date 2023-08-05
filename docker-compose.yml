@@ -1,0 +1,12 @@
+version: '3'
+services:
+  streamlit_app:
+    build:
+      context: .
+    ports:
+      - "8501:8501"
+
+    deploy:
+      resources:
+        limits:
+          memory: 4G
