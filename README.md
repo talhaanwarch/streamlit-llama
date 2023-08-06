@@ -24,8 +24,11 @@ The repository contains all the necessary code and files to set up and run the S
 
 - `app.py`: The Streamlit web application code that allows users to interact with the chatbot through a simple user interface.
 
-- `llama_2_7b_chat_quantized_ggml.bin`: 
-Quantized model weights provided by TheBloke
+- `llama-2-7b-chat.ggmlv3.q2_K.bin`:  Quantized model weights provided by TheBloke.   Can be download via wget or manually  
+
+```
+!wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q2_K.bin
+```
 
 - `Dockerfile`: The Dockerfile used to containerize the application for easy deployment and management.
 

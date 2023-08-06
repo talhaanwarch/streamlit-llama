@@ -3,6 +3,7 @@ services:
   streamlit_app:
     build:
       context: .
+    container_name: streamlit_llama
     ports:
       - "8501:8501"
 
