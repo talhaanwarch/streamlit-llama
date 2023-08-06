@@ -1,6 +1,7 @@
 # Streamlit Chatbot with Memory using Llama-2-7B-Chat (Quantized GGML)
 
-![Streamlit Chatbot](images/chatbot_demo.png)
+Working Url: https://chatdemo.talhaanwar.com/ 
+
 
 ## Table of Contents
 
@@ -36,8 +37,6 @@ The repository contains all the necessary code and files to set up and run the S
 
 - `requirements.txt`: Contains a list of Python dependencies required to run the application.
 
-- `images/`: A directory containing images used in this README and potentially for the web application.
-
 ## Prerequisites
 
 Before running the Streamlit Chatbot with Memory, you need to have the following installed:
@@ -61,7 +60,6 @@ cd streamlit-chatbot-memory
 ```bash
 python -m venv venv
 source venv/bin/activate  
-# On Windows: venv\Scripts\activate
 ```
 
 3. Install the required Python packages:
@@ -88,13 +86,7 @@ If you prefer to deploy the chatbot using Docker Compose, follow these steps:
 
 1. Make sure you have Docker and Docker Compose installed on your system.
 
-2. From the project root directory, build the Docker image using the provided Dockerfile:
-
-```bash
-docker build -t streamlit-chatbot-memory .
-```
-
-3. Once the image is built, start the container using Docker Compose:
+2. Start the container using Docker Compose:
 
 ```bash
 docker-compose up -d
